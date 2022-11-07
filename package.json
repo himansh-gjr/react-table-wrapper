@@ -4,9 +4,9 @@
 	"type": "module",
 	"description": "",
 	"license": "MIT",
-	"author": "",
-  "homepage": "",
-	"keywords": [],
+	"author": "himansh-gjr",
+  	"homepage": "",
+	"keywords": ["react table wrapper"],
 	"files": [
 		"dist",
 		"README.md"
