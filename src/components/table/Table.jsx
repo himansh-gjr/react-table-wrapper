@@ -11,13 +11,13 @@ import {
 import classnames from "classnames"
 import PropTypes from "prop-types"
 import { DEFAULT_TABLE_ID } from "./constants"
-import SortIcon from "../assets/image/sort.png"
-import SelectBox from "../components/select-box/index"
+import SortIcon from "../../assets/image/sort.png"
+import SelectBox from "../select-box/index"
 import "./table.css"
-import EmptyStates from "../components/empty-states/EmptyStates"
-import Pagination from "../components/pagination"
-import LoaderScreen from "../components/LoaderScreen/LoaderScreen"
-import Checkbox from "../components/checkbox"
+import EmptyStates from "../empty-states/EmptyStates"
+import Pagination from "../pagination"
+import LoaderScreen from "../LoaderScreen/LoaderScreen"
+import Checkbox from "../checkbox"
 
 const Table = ({
 	id,

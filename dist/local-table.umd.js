@@ -1,4 +1,4 @@
-(function(ln,Ro){typeof exports=="object"&&typeof module<"u"?module.exports=Ro():typeof define=="function"&&define.amd?define(Ro):(ln=typeof globalThis<"u"?globalThis:ln||self,ln["React table wrapper"]=Ro())})(this,function(){"use strict";var ln=typeof globalThis<"u"?globalThis:typeof window<"u"?window:typeof global<"u"?global:typeof self<"u"?self:{};function Ro(p){return p&&p.__esModule&&Object.prototype.hasOwnProperty.call(p,"default")?p.default:p}var $t={exports:{}},_t={};/**
+(function(ln,Ro){typeof exports=="object"&&typeof module<"u"?module.exports=Ro():typeof define=="function"&&define.amd?define(Ro):(ln=typeof globalThis<"u"?globalThis:ln||self,ln.ReactViteLibrary=Ro())})(this,function(){"use strict";var ln=typeof globalThis<"u"?globalThis:typeof window<"u"?window:typeof global<"u"?global:typeof self<"u"?self:{};function Ro(p){return p&&p.__esModule&&Object.prototype.hasOwnProperty.call(p,"default")?p.default:p}var $t={exports:{}},_t={};/**
  * @license React
  * react.production.min.js
  *

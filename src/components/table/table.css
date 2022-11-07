@@ -1,5 +1,5 @@
-@import "../assets/css/typography.css";
-@import "../assets/css/color-palette.css";
+@import "../../assets/css/typography.css";
+@import "../../assets/css/color-palette.css";
 
 .table_container {
   padding: var(--loose-spacing);

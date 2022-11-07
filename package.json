@@ -10,17 +10,17 @@
 		"react table wrapper"
 	],
 	"files": [
-		"dist",
-		"README.md"
+		"dist"
 	],
-	"main": "./dist/table.umd.js",
-	"module": "./dist/table.es.js",
 	"exports": {
 		".": {
-			"import": "./dist/table.es.js",
-			"require": "./dist/table.umd.js"
-		}
+			"import": "./dist/local-table.es.js",
+			"require": "./dist/local-table.umd.js"
+		},
+		"./dist/style.css": "./dist/style.css"
 	},
+	"main": "./dist/local-table.umd.js",
+	"module": "./dist/local-table.es.js",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/himansh-gjr/react-table-wrapper.git"
