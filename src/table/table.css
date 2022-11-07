@@ -1,0 +1,158 @@
+@import "../assets/css/typography.css";
+@import "../assets/css/color-palette.css";
+
+.table_container {
+  padding: var(--loose-spacing);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead {
+  color: var(--dark-light);
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  height: 2.66rem;
+  border-bottom: 1px solid #dadde2;
+  text-align: right;
+}
+
+th {
+  font-weight: 500;
+  width: inherit;
+  padding: var(--tight-spacing);
+}
+
+th div {
+  display: flex;
+  align-items: center;
+}
+
+th div img {
+  margin-left: var(--extra-tight-spacing);
+}
+
+td {
+  text-align: right;
+  padding: var(--tight-spacing);
+  font-size: var(--body-fs);
+  color: var(--dark-standard);
+  font-weight: 400;
+  width: inherit;
+}
+
+td .disabled {
+  color: var(--dark-subdued);
+}
+
+/* td.sort-padding {
+  padding-right: calc(var(--base-tight-spacing) * 2.5);
+} */
+
+.sort-asc {
+  transform: rotate(180deg);
+}
+
+tbody tr {
+  height: 3.66rem;
+}
+
+tr:nth-child(even) {
+  background-color: #fafbfc;
+}
+tbody tr:hover {
+  background-color: var(--light);
+}
+
+input [type="checkbox"] {
+  padding-left: 1.25rem;
+}
+
+.expanded_table_tr {
+  height: 3.66rem;
+}
+
+.expand_block,
+.expand_block img {
+  height: 1.33rem;
+  width: 1.33rem;
+}
+
+/* .expanded_table_td {
+  text-align: left;
+}
+
+.expanded_table_thead {
+  text-align: left;
+} */
+
+@media only screen and (max-width: 768px) {
+  .m_view {
+    display: none;
+  }
+}
+
+/* ------------------------------------------------------ additional css ------------------------------------------------------ */
+
+.jump-to-page-input{
+  width: 80px;
+  /* margin: auto; */
+  background: #FFFFFF;
+  border: 1px solid #9EB6FE;
+  border-radius: 4px;
+
+  /* font-style: normal;
+  font-weight: 400;
+  font-size: .75rem;
+  line-height: 1rem;
+  color: #172B4D; */
+
+  padding: 0.5rem;
+
+  margin: 8px 0;
+  margin-left: auto;
+
+}
+
+.jump-to-page-input input{
+  outline: none;
+  border: none;
+
+  width: 100%;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: .75rem;
+  line-height: 1rem;
+  color: #172B4D;
+}
+
+.jump-to-page-input input:focus{
+  outline: none;
+  border: none;
+}
+
+.jump-to-page-input input[type=number]::-webkit-inner-spin-button, 
+.jump-to-page-input input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+
+/* resizer */
+.resizer {
+  display: inline-block;
+  background: blue;
+  width: 10px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateX(50%);
+  z-index: 1;
+  touch-action:none;
+}
